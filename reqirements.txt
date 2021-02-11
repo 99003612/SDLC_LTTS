@@ -1,0 +1,38 @@
+                     LOAN CALCULATOR
+REQUIREMENTS:
+ High Level Requirements:
+•	CIBIL Score is a consumer’s credit score which is a three digit numeric summary of a customer credit history. This is based on post credit behavior, such as borrowing and repayment habits as shared by banks and lenders with CIBIL score.
+•	Eligibility criteria for home loans are:
+•	Gross Income (Monthly): Input gross monthly income. NRI should input net          income.
+•	Loan Tenure (In Years): Input the desired loan term for which you wish to avail the loan.
+•	Interest Rate (% P.A): Input prevailing loan interest rate.
+•	Other EMIs (Monthly): Input the EMIs of the other loans you have.
+•	Eligibility criteria for personal loans are:
+•	Employees of select private limited companies, employees from public sector undertakings, including central, state and local bodies.
+•	Individuals between 21 and 60 years of age.
+•	Individuals who have had a job for at least 2 years, with a minimum of 1 year with the current employer.
+
+•	Documents Required:
+•	Customer should have Identity proof (copy of passport/voter id).
+•	Customer should provide Address proof (Aadhaar Card).
+•	Customer should contain bank statement of previous 3 months.
+•	Customer should contain two latest salary slips/Current dated salary certificate with the latest form 16.
+      Form 16:
+•	Form 16 is a document or certificate, issued as per the Section 203 – Income-Tax Act 1961, to salaried professionals in India by their respective employers. Also, referred to as a “salary certificate”, it contains the entire details regarding the salary given by the organization or employer to the employee in a particular financial year and the income tax that has been removed from the salary of the individual by the payer.
+
+
+
+Low Level Requirements:
+•	Set the total loan period in months.
+•	Set the initial amount.
+•	Set the initial payment, Loan will be for (initial amount – initial payment)
+•	Calculate the initial loan amount, given: monthly payment, loan period and interest.
+•	Calculate the loan balance after making several payments.
+•	Calculate the loan interest given: (Interest Rate / no.of Payments)*Loan principle.
+•	Calculate the no.of payments needed to pay a loan.
+•	Calculate the monthly loan payment.
+•	Set the yearly interest rate.
+•	Set the elapsed period in months.
+•	Set fees for opening the loan.
+•	Set monthly loan payment.
+
