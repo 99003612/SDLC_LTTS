@@ -20,8 +20,24 @@ bool isValidPanCardNo(string panCardNo)
         return false;
     }
 }
-void phno(string num)
+
+void cibil(int cibil_score)
 {
+
+cout << "Based on your cibil score, we give you an estimate of what your annual payments might look like. \n";
+cout << "Enter your CIBIL Score-\n";
+cin >> cibil_score;
+
+if ((cibil_score >=100) && (cibil_score <300)) {
+cout << "Poor CIBIL Score, Loan rejected.";
+}
+else if ((cibil_score >= 300) && (cibil_score <900)) {
+cout << "Good CIBIL Score, Loan accepted.";
+}
+}
+
+
+void phno(string num){
     int count=0;
    for(int i=0;i<num.length();i++)
    {
@@ -30,7 +46,7 @@ void phno(string num)
      {
          count+=1;
      }
-   }//cout<<count;
+   }
    if(count==10)
    {
         if(num[0]==6|| num[0]==7||num[0]==8||num[0]==9)
@@ -71,27 +87,25 @@ void aadhaar(string num)
 int main(){
     string pan,gnd,fn,n,an,bs;
     string l;
+    int c;
     double loan_amount,interest_rate,number_of_years,total_amount,monthly_amount, cs;
     cout<<"Gender"<<endl;
     cin>>gnd;
-    do{
     if(gnd=="male"||gnd=="female"||gnd=="MALE"||gnd=="FEMALE")
     {
-       break;  
+       
     }
     else
     {
-    cout<<"TRY AGAIN"<<endl;
-    cin>>gnd;
+    cout<<"INVALID";
+    exit(0);
     }
-   
-    }while(gnd!="male"||gnd!="female"||gnd!="MALE"||gnd!="FEMALE");
-   
     cout<<"Full name"<<endl;
     cin>>fn;
     cout<<"Enter 10 digit mobile number"<<endl;
 cin>>n;
 phno(n);
+
 cout<<"Enter pan"<<endl;
 cin>>pan;
 bool res=isValidPanCardNo(pan);
@@ -137,20 +151,7 @@ aadhaar(an);
         cout<<"reject";
      exit(0);  
     }
-
-    cout<<"enter your cibil score"<<endl;
-   cin>>cs;
-    cout<<endl;
-    if((cs>=300) && (cs<=900))
-    {
-        cout<<"loan approved"<<endl;
-    }
-    else
-    {
-        cout<<"loan rejected"<<endl;
-       
-        exit(0);
-    }
+    cibil(c);
    
    
 cout<<"Enter the loan amount: ";
