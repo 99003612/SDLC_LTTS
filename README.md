@@ -60,9 +60,9 @@ Name | PS Number | No. of Test Cases | No. of Test Cases Passed | No. of Test Ca
 ## Challenges
 
 1. We faced challenges in drawing UML's diagrams.
-2. We faced challenges in unit testing.
-3. We faced challenges in test plan
-4. We faced challenges in makefile
+2. We faced challenges in unit testing and code inpector.
+3. We faced challenges in test plan.
+4. We faced challenges in makefile.
 
 ## Learning folder
 1. [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
