@@ -4,9 +4,7 @@ LTTS TRAINING PROJECT (SDLC)
 
 Build | Cppcheck | Unity | [Git Inspector](https://99003612.github.io/SDLC_LTTS/result)| Code Quality Score | Code Grade
 ------|----------|-------|-------------------------------------------------------------|--------------------|------------
-![C/C++ CI](https://github.com/99003612/SDLC_LTTS/workflows/C/C++%20CI/badge.svg) |![Cppcheck](https://github.com/99003612/SDLC_LTTS/workflows/Cppcheck/badge.svg)| ![Unity - Unit Testing](https://github.com/99003612/SDLC_LTTS/workflows/Unity%20-%20Unit%20Testing/badge.svg) |![Git Inspector](https://github.com/99003592/Team2-TaskCalculator/workflows/Git%20Inspector/badge.svg)|
-[![Code Quality Score](https://www.code-inspector.com/project/18985/score/svg)](https://frontend.code-inspector.com/public/project/18985/BMI/dashboard)|
-[![Code Grade](https://www.code-inspector.com/project/18985/status/svg)](https://frontend.code-inspector.com/public/project/18985/BMI/dashboard)
+![C/C++ CI](https://github.com/99003612/SDLC_LTTS/workflows/C/C++%20CI/badge.svg) |![Cppcheck](https://github.com/99003612/SDLC_LTTS/workflows/Cppcheck/badge.svg)| ![Unity - Unit Testing](https://github.com/99003612/SDLC_LTTS/workflows/Unity%20-%20Unit%20Testing/badge.svg) |![Git Inspector](https://github.com/99003592/Team2-TaskCalculator/workflows/Git%20Inspector/badge.svg)|[![Code Quality Score](https://www.code-inspector.com/project/18985/score/svg)](https://frontend.code-inspector.com/public/project/18985/BMI/dashboard)|[![Code Grade](https://www.code-inspector.com/project/18985/status/svg)](https://frontend.code-inspector.com/public/project/18985/BMI/dashboard)
 
 
 # Folder Structure
