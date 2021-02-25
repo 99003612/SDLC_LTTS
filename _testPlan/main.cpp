@@ -29,11 +29,18 @@ cout << "Enter your CIBIL Score-\n";
 cin >> cibil_score;
 
 if ((cibil_score >=100) && (cibil_score <300)) {
+<<<<<<< HEAD
 cout << "Poor CIBIL Score, Loan rejected."<<endl;
 exit(0);
 }
 else if ((cibil_score >= 300) && (cibil_score <900)) {
 cout << "Good CIBIL Score, Loan accepted."<<endl;
+=======
+cout << "Poor CIBIL Score, Loan rejected.";
+}
+else if ((cibil_score >= 300) && (cibil_score <900)) {
+cout << "Good CIBIL Score, Loan accepted.";
+>>>>>>> 6ca9d5112d47806288770d475d19739fb52457a1
 }
 }
 
