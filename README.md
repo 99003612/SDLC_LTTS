@@ -4,7 +4,7 @@ LTTS TRAINING PROJECT (SDLC)
 
 Build | Cppcheck | Unity | [Git Inspector](https://99003612.github.io/SDLC_LTTS/result)| Code Quality Score | Code Grade
 ------|----------|-------|-------------------------------------------------------------|--------------------|------------
-![C/C++ CI](https://github.com/99003612/SDLC_LTTS/workflows/C/C++%20CI/badge.svg) |![Cppcheck](https://github.com/99003612/SDLC_LTTS/workflows/Cppcheck/badge.svg)| ![Unit Test](https://github.com/99003612/SDLC_LTTS/workflows/Unit%20Test/badge.svg) | ![Git Inspector](https://github.com/99003612/SDLC_LTTS/workflows/Git%20Inspector/badge.svg)|[![Code Quality Score](https://www.code-inspector.com/project/18993/score/svg)](https://www.code-inspector.com/public/project/18993/SDLC_LTTS/dashboard)|[![Code Grade](https://www.code-inspector.com/project/18993/status/svg)](https://frontend.code-inspector.com/public/project/18993/SDLC_LTTS/dashboard)
+![C/C++ CI](https://github.com/99003612/SDLC_LTTS/workflows/C/C++%20CI/badge.svg) |![Cppcheck](https://github.com/99003612/SDLC_LTTS/workflows/Cppcheck/badge.svg)| ![Unity - Unit Testing](https://github.com/99003612/SDLC_LTTS/workflows/Unity%20-%20Unit%20Testing/badge.svg) |![Git Inspector](https://github.com/99003592/Team2-TaskCalculator/workflows/Git%20Inspector/badge.svg)|[![Code Quality Score](https://www.code-inspector.com/project/18985/score/svg)](https://frontend.code-inspector.com/public/project/18985/BMI/dashboard)|[![Code Grade](https://www.code-inspector.com/project/18985/status/svg)](https://frontend.code-inspector.com/public/project/18985/BMI/dashboard)
 
 
 # Folder Structure
@@ -60,9 +60,9 @@ Name | PS Number | No. of Test Cases | No. of Test Cases Passed | No. of Test Ca
 ## Challenges
 
 1. We faced challenges in drawing UML's diagrams.
-2. We faced challenges in unit testing.
-3. We faced challenges in test plan
-4. We faced challenges in makefile
+2. We faced challenges in unit testing and code inpector.
+3. We faced challenges in test plan.
+4. We faced challenges in makefile.
 
 ## Learning folder
 1. [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
